@@ -38,8 +38,17 @@ def calme(x,y,z=3,w=5):
 # LOCAL SCOPE OF VARIABLE
 # GLOBAL SCOPE
 # ===============================
+'''
+def fun():
+    global x
+    x = 12
+    print(f"x = {x}")
 
-
+x = 17
+print(f"x = {x}")
+fun()
+print(f"x = {x}")
+'''
 
 # WAP to define a function named Profile(d_name, d_stream, d_skill) Accept input from the user to pass it to the function and do return all the values and print
 '''
@@ -60,7 +69,7 @@ for item in t:
 # WAP to create a tuple named marks pass this tuple to a function named score inside function.
 # i) You have to display all the marks individually
 # ii) Add 5 to each mark
-
+'''
 def score(marks):
     for val in marks:
         print(val)
@@ -71,3 +80,4 @@ def score(marks):
 marks = tuple(map(int, input("Enter elements saperated by comma: ").split(',')))
 
 score(marks)
+'''
