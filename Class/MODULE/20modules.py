@@ -35,4 +35,6 @@ print(f"Division of nums : {divide(9, 3)}")
 '''
 
 # Method 4 to import a module
+'''
 import platform as platf
+'''

@@ -1,21 +1,3 @@
-# Write a program to-
-# Given a colour in Spanish find the German equivalent
-# en_de={"red":"rot", "green":"grün", "blue":"blau", "yellow":"gelb"}
-# en_es={"red":"rojo","green":"verde ","blue":"azul", "yellow":"amarillo"}
-'''
-en_german={"red":"rot", "green":"grün", "blue":"blau", "yellow":"gelb"}
-en_spanish={"red":"rojo","green":"verde ","blue":"azul", "yellow":"amarillo"}
-
-sp = input("Enter spanish color name: ").lower()
-english_color = None
-
-for eng,span in en_spanish.items():
-    if span == sp:
-        english_color = eng
-        break
-
-print(f"German equivalent of {sp} is: {en_german[english_color]}")
-'''
 
 # Create a dictionary of countries and their capitals. Given a capital display the country and vice versa
 '''
@@ -43,7 +25,7 @@ else :
 # - Given a learner name, determine if he/she has failed or passed in EXLAT.
 
 # - Given an enrollment number find the corresponding learner details.
-
+'''
 n = int(input("Enter the number of learners: "))
 
 marks = {}
@@ -100,3 +82,23 @@ while (True):
         break
     else :
         print("Invalid input, please retry.")
+'''
+
+# Write a program to-
+# Given a colour in Spanish find the German equivalent
+# en_de={"red":"rot", "green":"grün", "blue":"blau", "yellow":"gelb"}
+# en_es={"red":"rojo","green":"verde ","blue":"azul", "yellow":"amarillo"}
+'''
+en_german={"red":"rot", "green":"grün", "blue":"blau", "yellow":"gelb"}
+en_spanish={"red":"rojo","green":"verde ","blue":"azul", "yellow":"amarillo"}
+
+sp = input("Enter spanish color name: ").lower()
+english_color = None
+
+for eng,span in en_spanish.items():
+    if span == sp:
+        english_color = eng
+        break
+
+print(f"German equivalent of {sp} is: {en_german[english_color]}")
+'''
