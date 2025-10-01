@@ -9,6 +9,7 @@ print(31 in my_set)
 # Mathematical Opearations  (union (|), intersection (&), difference (-), symmetric difference (^))
 set1 = {2,4,6,8,10}
 set2 = {10,12,14,16,18}
+set2.pop()
 
 # union
 union_set = set1.union(set2)
